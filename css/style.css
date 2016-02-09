@@ -13,17 +13,17 @@ header{
 	height: 80px;
 }
 /*estilo de section*/
-section{
+.color{
 	background-color: #E6E3E3;
 }
-ul{
+.menu{
 	list-style-type: none;
 	font-size: 14px;
 	float: right;
 	font-family: Arial;
 	padding-top: 30px;
 }
-li{
+.menu li{
 	position: relative;
 	float: left;
 	margin: 10px;
@@ -42,4 +42,94 @@ h3{
 /*------- IMAGENES SECCION 1-----*/
 .imgSec{
 	width: 100%;
+	border: 4px;
+	border-style: ridge;
+}
+.txtUno{
+	color: #408ED6;
+	text-align: center;
+}
+.tm-1{
+	margin-top: 20px;
+	padding-bottom: 50px;
+}
+/*seccion 2- albums , first row, parte izquierda*/
+.txtDos{
+	color: #498ACD;
+	font-size: 12px;
+	text-align: center;
+}
+.img-2{
+	width: 115%;
+}
+.tm{
+	margin-top: 15px;
+}
+/*Columna de derecha con links*/
+.txtIcon{
+	color: #408ED6;
+	display: inline-block;
+	font-size: 12px;
+	margin-left: 10px;
+}
+.icon{
+	display: inline-block;
+}
+.podcast{
+	width: 15px;
+}
+.line{
+	margin-bottom: 20px;
+}
+.gristxt{
+	color: #6F6969;
+}
+.tmg{
+	margin-top: 50px;
+}
+.pd5{
+	padding: 3px 0;
+}
+.line2{
+	margin-top: 25px;
+	margin-bottom: 40px;
+}
+.txtder{
+	font-size: 14px;
+	line-height: 25px;
+}
+.txtcolor{
+	color: #408ED6;
+}
+/*footer estilo*/
+.fondo{
+	background-color: #6D6C6C;
+	padding-top: 30px;
+}
+.menubottom{
+	list-style-type: none;
+	font-size: 12px;
+	font-family: Arial;
+	padding: 15px 0;
+	color: #C3BFBF;
+	margin-left: 170px;
+}
+.menubottom li{
+	position: relative;
+	float: left;
+	margin: 10px;
+}
+.copyright{
+	font-size: 10px;
+	color: #A2A0A0;
+	text-align: center;
+	margin: 20px 0;
+}
+.txtbottom{
+	font-size: 14px;
+	color: white;
+	line-height: 30px;
+}
+.linkgris{
+	color: #A2A0A0;
 }
